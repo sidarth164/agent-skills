@@ -1,6 +1,11 @@
 ---
 name: plan-design-build
-description: Structured methodology for complex engineering tasks that require research, design decisions, and phased implementation. Use this skill whenever the user asks to build something new from scratch (greenfield library, service, crate, module), redesign or refactor an existing system, migrate between architectures, or tackle any engineering task where there are multiple valid approaches, prior art to learn from, or stakeholder decisions to resolve. Also use when the user asks to "plan", "design", "architect", or "think through" a technical problem before implementing. Even if the user jumps straight to "build X", use this skill if X is complex enough that jumping to code would likely cause rework.
+description: >-
+  Structured methodology for engineering tasks that span multiple components and require upfront
+  design decisions. Use when the user asks to build a new system from scratch, architect or
+  design before implementing, or migrate between architectures — or when they say "plan",
+  "design", "architect", or "think through". Skip for bug fixes, single-file changes, routine
+  refactors, or tasks the user prefaces with "just" or "quickly".
 ---
 
 # Plan, Design, Build

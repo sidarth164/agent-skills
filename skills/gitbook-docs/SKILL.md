@@ -1,12 +1,12 @@
 ---
 name: gitbook-docs
 description: >-
-  Opinionated skill for setting up, migrating, and maintaining GitBook project documentation
-  that lives alongside code. Use this whenever a project needs documentation — whether initializing
-  docs for a repo that has none, migrating existing docs (mdBook, scattered markdown) into GitBook,
-  restructuring a README, authoring new pages, or updating docs after code changes. Trigger on
-  requests involving GitBook setup, SUMMARY.md, .gitbook.yaml, doc structure, architecture docs,
-  README restructuring, or any mention of project documentation.
+  Opinionated skill for setting up, migrating, and maintaining project documentation using
+  GitBook conventions. The go-to skill for documentation tasks — scaffolding docs for a project,
+  writing architecture or getting-started pages, migrating existing docs into a structured format,
+  restructuring a README or docs/ directory, or updating docs after code changes. Also trigger on
+  GitBook, .gitbook.yaml, SUMMARY.md, or llms.txt. Skip for typo fixes in a single doc page,
+  reading/searching docs, or writing inline code comments.
 ---
 
 # GitBook Documentation Skill
