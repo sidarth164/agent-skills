@@ -9,6 +9,9 @@ __pycache__/
 venv/
 .pytest-artifacts/
 
+# Environment variables and secrets
+**/*.env
+
 # Node
 node_modules/
 

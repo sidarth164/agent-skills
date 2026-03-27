@@ -4,9 +4,10 @@ description: >-
   Opinionated skill for setting up, migrating, and maintaining project documentation using
   GitBook conventions. The go-to skill for documentation tasks — scaffolding docs for a project,
   writing architecture or getting-started pages, migrating existing docs into a structured format,
-  restructuring a README or docs/ directory, or updating docs after code changes. Also trigger on
-  GitBook, .gitbook.yaml, SUMMARY.md, or llms.txt. Skip for typo fixes in a single doc page,
-  reading/searching docs, or writing inline code comments.
+  restructuring a README or docs/ directory, or updating docs after code changes. Also trigger when
+  the user asks how to structure, organise, or optimise docs for GitBook conventions or AI agents.
+  Trigger on any mention of .gitbook.yaml, SUMMARY.md, or llms.txt. Skip for typo fixes in a
+  single doc page, reading/searching docs, or writing inline code comments.
 ---
 
 # GitBook Documentation Skill

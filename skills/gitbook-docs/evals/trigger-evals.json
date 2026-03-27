@@ -1,0 +1,74 @@
+[
+  {
+    "query": "just shipped a new rust crate to crates.io called `configula` — does yaml/toml config merging. the only docs right now are cargo docs and a 50-line README. need proper structured docs before I announce it to the community",
+    "should_trigger": true
+  },
+  {
+    "query": "need to document the architecture of our payment service before my team lead review on friday. it has a stripe webhook handler, a fraud detection module that calls our ML api, and a postgres-backed ledger. need something that explains how the components fit together",
+    "should_trigger": true
+  },
+  {
+    "query": "we inherited a node repo from another team. there's a `docs/` folder with like 20 markdown files just dumped in there — setup.md, api.md, config.md, deploy.md etc. no index, no navigation. we're trying to get it organized",
+    "should_trigger": true
+  },
+  {
+    "query": "my SUMMARY.md keeps going out of sync with the actual files in docs/ — half the links 404 and the hierarchy doesn't match the folder structure. been meaning to fix this for weeks",
+    "should_trigger": true
+  },
+  {
+    "query": "saw that GitBook auto-generates llms.txt for AI context. how do I structure my docs so the AI summary is actually useful?",
+    "should_trigger": true
+  },
+  {
+    "query": "new engineers on my team spend 2-3 days just getting their env set up because the docs are outdated or nonexistent. it's a Go service with postgres + redis, deployed on k8s. need to write up proper docs",
+    "should_trigger": true
+  },
+  {
+    "query": "our monorepo has 6 packages — auth, billing, notifications, core, api, admin. currently one big README.md at root tries to explain everything and it's become unmanageable. we need to restructure the docs",
+    "should_trigger": true
+  },
+  {
+    "query": "we have an mdBook setup for our rust project (book.toml, src/SUMMARY.md) and want to switch to GitBook. can you help migrate the structure and convert the syntax?",
+    "should_trigger": true
+  },
+  {
+    "query": "before I refactor the auth module, read through docs/authentication.md and the source code and give me a summary of how it currently works",
+    "should_trigger": false
+  },
+  {
+    "query": "line 23 in docs/getting-started.md says `npm start` but we switched to `pnpm` last month. quick one-line fix",
+    "should_trigger": false
+  },
+  {
+    "query": "add JSDoc comments to all the exported functions in src/api/client.ts — parameter types, return types, brief descriptions for each",
+    "should_trigger": false
+  },
+  {
+    "query": "I wrote a small CLI tool called `imgcrunch` that compresses images. need a README for the GitHub repo — just install instructions, usage flags, and a couple of examples",
+    "should_trigger": false
+  },
+  {
+    "query": "our REST API is missing docs for the new /payments/refund endpoint. can you update the OpenAPI spec? it takes a charge_id, amount, and optional reason field",
+    "should_trigger": false
+  },
+  {
+    "query": "help me write a technical design doc for the new rate limiting feature — needs to cover the problem statement, proposed solution, alternatives we considered, and rollout plan",
+    "should_trigger": false
+  },
+  {
+    "query": "review PR #247 — it adds GitBook docs for the new billing module. let me know if the structure looks right or if anything's missing before we merge",
+    "should_trigger": false
+  },
+  {
+    "query": "generate release notes for our v3.0 release from the PR titles since v2.5 — about 40 PRs. should go in CHANGELOG.md",
+    "should_trigger": false
+  },
+  {
+    "query": "set up Storybook for our design system. we have 30+ React components that need stories and prop documentation",
+    "should_trigger": false
+  },
+  {
+    "query": "write a Confluence page explaining our deployment process — covers dev, staging, and prod environments, who approves deployments, and how to roll back. it's for the engineering wiki",
+    "should_trigger": false
+  }
+]
